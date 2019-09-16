@@ -1,6 +1,10 @@
 $(document).ready(function() {
   var danhSachNguoiDung = new DanhSachNguoiDung();
 
+  function themNguoiDung(){
+    console.log("themNguoiDung 2");
+  }
+
   getLocalStorage();
 
   /* Xử lý nút Thêm Người Dùng */
